@@ -1,0 +1,17 @@
+Post: http://localhost:8080/api/v1/digitalbooks/author/signup
+Payload:
+{
+    "username":"Brahma",
+    "email":"brahmanandareddy.java@gmail.com",
+    "password":"Nandhu@1995",
+    "role":["admin"]
+}
+
+Post: http://localhost:8080/api/v1/digitalbooks/author/login
+{
+    "username":"Brahma",
+    "password":"Nandhu@1995"
+}
+#Swagger doc
+http://localhost:8080/v2/api-docs
+http://localhost:8080/swagger-ui.html //getting unauthorised exception
